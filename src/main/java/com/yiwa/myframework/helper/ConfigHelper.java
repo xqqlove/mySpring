@@ -23,4 +23,20 @@ public final class ConfigHelper {
         return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.JDBC_DRIVER);
     }
 
+    /**
+     * 获取JDBC_URL
+     * @return
+     */
+    public static String  getJdbcUrl(){
+        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.JDBC_URL);
+    }
+
+    /**
+     * 获取JDBC用户名
+     * @return
+     */
+    public static String getIdbcUserName(){
+        return PropsUtil.getString(CONFIG_PROPS,ConfigConstant.JDBC_USERNAME);
+    }
+
 }
