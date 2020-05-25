@@ -13,7 +13,7 @@ public final class ConfigHelper {
     /**
      * 加载配置文件的属性
      */
-    private static final Properties CONFIG_PROPS= PropsUtil.loadProps(ConfigConstant.CONFIG_FILE);
+    private static final  Properties CONFIG_PROPS= PropsUtil.loadProps(ConfigConstant.CONFIG_FILE);
 
     /**
      * 获取JDBC驱动
