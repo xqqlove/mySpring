@@ -8,9 +8,7 @@ import java.io.File;
 import java.io.FileFilter;
 import java.net.JarURLConnection;
 import java.net.URL;
-import java.util.Enumeration;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 

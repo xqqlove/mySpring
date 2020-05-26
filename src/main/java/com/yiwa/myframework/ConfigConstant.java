@@ -7,7 +7,7 @@ public interface ConfigConstant {
     String JDBC_DRIVER="yiwa.framework.jdbc.driver";
     String JDBC_URL="yiwa.framework.jdbc.url";
     String JDBC_USERNAME="yiwa.framework.jdbc.username";
-    String JDBC_PASSWORD="yiwa.framework,jdbc.password";
+    String JDBC_PASSWORD="yiwa.framework.jdbc.password";
 
     //java源码地址
     String APP_BASE_PACKAGE="yiwa.framework.app.base_package";
