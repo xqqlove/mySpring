@@ -4,13 +4,13 @@ package com.yiwa.myframework.bean;
 /**
  * 返回数据对象
  */
-public class Date {
+public class Data {
     /**
      * 模型数据
      */
     private Object model;
 
-    public Date(Object model) {
+    public Data(Object model) {
         this.model = model;
     }
 
